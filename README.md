@@ -91,6 +91,8 @@ python path/to/smooth.py --path path/to/datasets/YourDataset  # YourDataset shou
 
 [smooth.py credit to taki0112 https://github.com/taki0112/CartoonGAN-Tensorflow/blob/master/edge_smooth.py](https://github.com/taki0112/CartoonGAN-Tensorflow/blob/master/edge_smooth.py)
 
+#### For me, I included the `datasets` folder in the same folder as smooth.py. Specifying the entire path when the `datasets` folder is in a different didn't work for me.
+
 ### Start training
 
 Although you may have to tune hyperparameters to generate best result for your own datasets, train following settings that we found effective can be your starting point.
