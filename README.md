@@ -93,6 +93,13 @@ python path/to/smooth.py --path path/to/datasets/YourDataset  # YourDataset shou
 
 #### For me, I included the `datasets` folder in the same folder as smooth.py. Specifying the entire path when the `datasets` folder is in a different didn't work for me.
 
+#### Another important things apart from `TF setup instructions.txt` is that, set `PYTHONPATH` of GIT bash to the `site-packages` of local `env` using following.
+
+```
+export PYTHONPATH="$PWD/Anaconda3/envs/cartoongan/lib/site-packages"
+
+```
+
 ### Start training
 
 Although you may have to tune hyperparameters to generate best result for your own datasets, train following settings that we found effective can be your starting point.
